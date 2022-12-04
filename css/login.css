@@ -1,0 +1,105 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.1)),url('../img/m_poster.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+a img
+{
+	margin-top: 70px;
+	margin-left: 900px;
+	width: 30px;
+	height: 30px;
+}
+.center
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	background: rgba(25,25,25,0.6);
+	border: 1px solid rgba(255,255,255,0.4);
+	border-radius: 10px;
+}
+.center h1
+{
+	text-align: center;
+	padding: 0 0 20px 0;
+	color: #fff;
+	border-bottom: 1px solid silver;
+}
+.center form
+{
+	padding: 0 40px;
+	box-sizing: border-box;
+}
+form .txt
+{
+	position: relative;
+	border-bottom: 2px solid #adadad;
+	margin: 30px 0;
+}
+.txt input
+{
+	width: 100%;
+	padding: 0 5px;
+	height: 40px;
+	font-size: 16px;
+	color: #fff;
+	border: none;
+	background: none;
+	outline: none;
+}
+.btn
+{
+	display: flex;
+	justify-content: space-around;
+}
+.btn input
+{
+	width: 150px;
+	height: 40px;
+	border: 0.5px solid #fff;
+	background: #2691d9;
+	border-radius: 25px;
+	font-size: 15px;
+	font-weight: 700;
+	color: #e9f4fb;
+	cursor: pointer;
+	transition: .5s ease;
+}
+.btn input:hover
+{
+	box-shadow: 0 0 5px #ddd,0 0 10px #2691d9,0 0 15px #2691d9,0 0 20px #2691d9;
+}
+.signup
+{
+	margin: 30px 0;
+	text-align: center;
+	font-size: 16px;
+	color: #aaa;
+}
+.signup a
+{
+	color: #2691d9;
+	font-size: 20px;
+	text-decoration: none;
+	transition: .5s ease;
+}
+.signup a:hover
+{
+	text-decoration: underline;
+	color: #fff;
+	text-shadow: 0 0 5px #2691d9;
+}
+
+/*alogin page*/
+.extraspace
+{
+	margin-bottom: 20px;
+}
+/*----------*/

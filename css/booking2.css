@@ -1,0 +1,23 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	background: #181818;
+}
+.movie
+{
+	display: flex;
+	justify-content: center;
+	padding-top: 80px;
+}
+.movie img
+{
+	margin: 40px;
+	height: 400px;
+	width: 350px;
+	transition: 0.5s;
+}
+.movie img:hover
+{
+	transform: scale(1.2);
+}

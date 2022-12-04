@@ -1,0 +1,197 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+body
+{
+	background: linear-gradient(to right,#1b1b1b 0%,#000 100%);
+}
+.about_sec1
+{
+	background-image: url(../img/m_poster.jpg);
+	background-size: cover;
+	height: 660px;
+}
+.about_sec2
+{
+	height: 600px;
+	padding: 0 50px;
+}
+
+.about_sec2 .title
+{
+	color: #fff;
+}
+.about_sec2 .title h1
+{
+	padding: 40px;
+	font-size: 40px;
+	text-transform: uppercase; 
+}
+.about_sec2 .title h3
+{
+	word-spacing: 5px;
+	font-size: 40px;
+	font-family: times new roman;
+}
+.about_sec2 img
+{
+	height: 400px;
+	width: 100%;
+}
+.about_sec2 .text
+{
+	display: flex;
+	color: #fff; 
+	margin: 40px 0;
+}
+.about_sec2 .text p
+{
+	padding: 0 20px;
+}
+.col-6
+{
+	max-width: 1150px;
+	margin-left: 25px;
+	padding: 50px 0px;
+	display: flex;
+	align-items: center;
+}
+.col-6 .review
+{
+	margin: 25px;
+	min-width: 250px;
+	height: 250px; 
+	background: rgba(255,255,255,0.1);
+	/*border-radius: 20px;*/
+	color: #fff;
+	box-shadow: 5px 10px 5px rgba(0,0,0,0.5);
+	/*border-top: 1px solid #fff;
+	border-left: 1px solid #fff;*/
+	text-shadow: 2px 2px 2px #000;
+	overflow: hidden;
+	/*opacity: 0.5;*/
+	transition: 0.2s ease-in;
+}
+.col-6 .review:hover
+{
+	transform: translateY(-5px);
+	box-shadow: 10px 20px 5px rgba(0,0,0,0.5);
+	background: rgba(255,255,255,0.2);
+	opacity: 1;
+}
+/*Third Section Ends*/
+
+
+
+
+
+
+/*Third Section Start*/
+.sec3
+{
+	margin-top: 200px;
+	background-image: linear-gradient(rgba(25,25,25,0.7), rgba(25,25,25,0.7)),url('../img/1.jpg');
+	background-size: cover;
+}
+.col-6
+{
+	max-width: 1150px;
+	margin-left: 75px;
+	padding: 50px 0px;
+	display: flex;
+	align-items: center;
+}
+.col-6 .review
+{
+	margin: 25px;
+	min-width: 250px;
+	height: 300px; 
+	background: rgba(255,255,255,0.1);
+	border-radius: 20px;
+	color: #fff;
+	box-shadow: 5px 10px 5px rgba(0,0,0,0.5);
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+	text-shadow: 2px 2px 2px #000;
+	overflow: hidden;
+	opacity: 0.5;
+	transition: 0.2s ease-in;
+}
+.col-6 .review:hover
+{
+	transform: translateY(-5px);
+	box-shadow: 10px 20px 5px rgba(0,0,0,0.5);
+	background: rgba(255,255,255,0.2);
+	opacity: 1;
+}
+.review .reviewtext
+{
+	pointer-events: none;
+}
+.review .reviewtext h1
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 25px;
+	margin-top: 10px;
+}
+.review .reviewtext p
+{
+	font-size: 17px;
+	margin: 7px;
+	color: #fff;
+	margin-top: 25px;
+}
+/*Third Section Ends*/
+
+
+
+
+
+
+/* Third Section Starts 
+<section class="sec3" id="About">
+		<div class="col-6">
+			<div class="review">
+				<div class="reviewtext">
+					<h1>Project Manager</h1>
+					<p><span class="tab"></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.<br><br>
+					<span class="tab"></span>Ut enim ad minim veniam,
+					quis nostrud exercitation.</p>
+				</div>			
+			</div>
+			<div class="review">
+				<div class="reviewtext">
+					<h1>CEO</h1>
+					<p><span class="tab"></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.<br><br>
+					<span class="tab"></span>Ut enim ad minim veniam,
+					quis nostrud exercitation.</p>
+				</div>			
+			</div>
+			<div class="review">
+				<div class="reviewtext">
+					<h1>Programmer</h1>
+					<p><span class="tab"></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.<br><br>
+					<span class="tab"></span>Ut enim ad minim veniam,
+					quis nostrud exercitation.</p>
+				</div>			
+			</div>
+			<div class="review">
+				<div class="reviewtext">
+					<h1>Assistent</h1>
+					<p><span class="tab"></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.<br><br>
+					<span class="tab"></span>Ut enim ad minim veniam,
+					quis nostrud exercitation.</p>
+				</div>			
+			</div>
+		</div>
+</section>
+<!-- Third Section Ends -->

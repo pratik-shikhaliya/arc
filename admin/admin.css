@@ -1,0 +1,118 @@
+body
+{
+	font-family: "open sans", arial;
+	background: #ddd;
+	font-weight: 300;
+}
+header
+{
+	position: relative;
+
+}
+header a
+{
+	font-size: 30px;
+	float: right;
+}
+header img
+{
+	height: 50px;
+	width: 50px;
+}
+.dashboard
+{
+	background: #00a2ef;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	overflow: hidden;
+	width: 270px;
+}
+.dashboard img
+{
+	margin: 50px;
+	height: 35px;
+	width: 150px;
+}
+.column
+{
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+a
+{
+	text-decoration: none;
+	color: #fff;
+	margin: 20px;
+	font-size: 20px;
+}
+a span
+{
+	position: relative;
+	padding: 5px;
+	transition: 0.3s;
+}
+a span:hover
+{
+	color: #00a2ef;	
+	background-color: #fff;
+	padding: 5px 50px;
+}
+.logout
+{
+	margin-top: 60px;
+}
+
+/*for all tables*/
+input:focus
+{
+	outline: 2px solid #00a2ef;
+}
+/*Dashboard php style*/
+.table
+{
+	padding-left: 150px;
+	padding-top: 250px;
+}
+.listtable
+{
+	table-layout: fixed;
+	word-wrap: break-word;
+}
+#tablespace
+{
+	margin-left: 100px;
+}
+/*Add_movie php style*/
+.add_movie
+{
+	padding-top: 150px;
+	padding-left: 150px;
+}
+.add_movie tr td
+{
+	padding: 10px;
+}
+.btn
+{
+	border-radius: 25px;
+	font-size: 20px;
+	margin-top: 10px;
+	color: #fff;
+	border: 0.5px solid black;
+	padding: 2px 10px;
+	background: #00a2ef;
+	letter-spacing: 1px;
+	transition: 0.5s;
+}
+.btn:hover
+{
+	border-radius: 0;
+}
+
+

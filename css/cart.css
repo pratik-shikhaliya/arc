@@ -1,0 +1,34 @@
+body
+{
+	background: linear-gradient(to right,#2b2b2b 0%,#000 100%);
+	color: #fff;
+}
+table
+{
+	margin-left: 200px;
+	margin-top: 250px;
+}/*
+.head
+{
+	color: #000;
+	background: #fff;
+}*/
+p
+{
+	margin: 20px;
+	font-size: 25px;
+}
+a
+{
+	color: #00a2ef;
+	text-decoration: none;
+}
+a:hover
+{
+	text-decoration: underline;
+}
+.link
+{
+	display: flex;
+	margin-left: 500px;
+}

@@ -1,0 +1,85 @@
+body 
+ {
+	background-image: linear-gradient(to right,rgba(0,0,0,0.9), rgba(25,25,25,0.2), rgba(0,0,0,0.9)),url('../img/s4.jpg');
+	background-size: 100% 70%;
+	background-repeat: no-repeat;
+	background-color: #181818;
+	height: 100vh;
+}
+a
+{
+	float: right;
+	padding: 20px;
+}
+.content
+{
+	min-width: 350px;
+	height: 90vh; 
+	width: 100px;
+	padding-top: 120px;
+	margin-left: 50px;
+}
+.content img
+{
+	width: 50%;
+	height: 200px;
+	padding-top: 90px;
+	margin-left: 50px;
+	transform: scale(2);
+}
+table
+{
+	width: 80%;
+}
+.text
+{
+	position: relative;
+	transform: translateY(-150px);
+	color: #fff;
+	padding-left: 50px;
+}
+.text h1
+{
+	font-size: 50px;
+	padding-left: 40px;
+}
+.text h2
+{
+	margin: 20px;
+	margin-right: 50px;
+}
+.text p
+{
+	font-size: 20px;
+	margin: 20px;
+}
+table input
+{
+	width: 95%;
+	height: 30px;
+	font-size: 18px;
+	/*color: #fff;*/
+	/*background: rgba(255,255,255,0.1);*/
+	border: none;
+}
+table input:focus
+{
+	outline: 2px solid #00a2ef;
+}
+input[type=submit]
+{
+	background: #00a2ef;
+	color: #fff;
+	border: none;
+	font-size: 25px;
+	padding: 10px 40px;
+	font-weight: bold;
+	margin-top: 40px;
+	margin-left: 40%;
+	transition: 0.5s;
+}
+input[type=submit]:hover
+{
+	background: #fff;
+	color: #00a2ef;
+}
