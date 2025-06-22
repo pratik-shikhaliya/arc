@@ -1,7 +1,7 @@
 # 🎪 ARC - Ace Realm Carnival
 ## Online Movie Ticket Booking System
 
-> **Academic Project** - College Submission (3 Years Ago)
+> **Academic Project** - College Submission
 
 A comprehensive online movie ticket booking system built as a college project to demonstrate web development skills using core technologies.
 
